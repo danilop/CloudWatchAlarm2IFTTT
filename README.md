@@ -40,12 +40,13 @@ This code is licensed under the The MIT License (MIT). Please see the LICENSE fi
 9. Select Receive a Web Request
 10. Write the Event Name exacly as is the iftttMakerEventName variable of the Lambda function (step 3.4)
 11. Select Create Trigger
-12. Choose whatever you want as Action ('that'), for example:
-  1. Choose iOS or Android Notifications to receive it on your mobile (you need the IF app from IFTTT installed on the device)
-  2. Choose a Channel from the Connected Home category to have a *visible* effect, e.g. Philips Hue to change the color of your lights to red
-  3. Choose Slack to send a message to your team
-  4. Choose Trello to create a new card
-  5. Choose GitHub to create a new issue
+12. 'Value1' contains a summary of the CloudWatch alarm
+13. Choose whatever you want as Action ('that'), for example:
+  1. iOS or Android Notifications to receive it on your mobile (you need the IF app from IFTTT installed on the device), e.g. you can set the notification to 'CloudWatch {{Value1}}'
+  2. A Channel from the Connected Home category to have a *visible* effect, e.g. Philips Hue to change the color of your lights to red
+  3. Slack to send a message to your team
+  4. Trello to create a new card
+  5. GitHub to create a new issue
 
 ## Feedback
 
