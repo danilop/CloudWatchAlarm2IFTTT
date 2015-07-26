@@ -41,7 +41,7 @@ This code is licensed under the The MIT License (MIT). Please see the LICENSE fi
 10. Write the Event Name exacly as is the iftttMakerEventName variable of the Lambda function (step 3.4)
 11. Select Create Trigger
 12. Choose whatever you want as Action ('that'), for example:
-  1. Choose iOS or Android Notifications to receive it on your mobile (you need the IF app from IFTTT)
+  1. Choose iOS or Android Notifications to receive it on your mobile (you need the IF app from IFTTT installed on the device)
   2. Choose a Channel from the Connected Home category to have a *visible* effect, e.g. Philips Hue to change the color of your lights to red
   3. Choose Slack to send a message to your team
   4. Choose Trello to create a new card
